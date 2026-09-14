@@ -1,6 +1,8 @@
 # Legal pages (App Store Support / Privacy URLs)
 
-Files live at the **repository root** (same level):
+Public repo: https://github.com/PolyakovaMargarita/puzzleIsla
+
+Files at repository root:
 
 - `index.html`
 - `privacy.html`
@@ -15,7 +17,7 @@ Files live at the **repository root** (same level):
 
 ## URLs
 
-- Support: https://polyakovamargarita.github.io/puzzle/support.html
-- Privacy: https://polyakovamargarita.github.io/puzzle/privacy.html
+- Support: https://polyakovamargarita.github.io/puzzleIsla/support.html
+- Privacy: https://polyakovamargarita.github.io/puzzleIsla/privacy.html
 
-Same URLs are in `src/shared/config/legal.ts` for in-app Settings.
+Same URLs are in the Puzzle Isle app: `src/shared/config/legal.ts`.
