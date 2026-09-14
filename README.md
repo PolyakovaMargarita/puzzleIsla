@@ -1,12 +1,21 @@
 # Legal pages (App Store Support / Privacy URLs)
 
-Host these files with **GitHub Pages**:
+Files live at the **repository root** (same level):
+
+- `index.html`
+- `privacy.html`
+- `support.html`
+- `README.md`
+
+## GitHub Pages
 
 1. Repo → **Settings** → **Pages**
-2. Source: Deploy from branch `main` (or your default), folder **`/docs`**
-3. After publish, use:
+2. Source: Deploy from branch `main`
+3. Folder: **`/` (root)** — not `/docs`
 
-- Support: https://polyakovamargarita.github.io/puzzle/legal/support.html
-- Privacy: https://polyakovamargarita.github.io/puzzle/legal/privacy.html
+## URLs
 
-The same URLs are configured in `src/shared/config/legal.ts` for in-app Settings links.
+- Support: https://polyakovamargarita.github.io/puzzle/support.html
+- Privacy: https://polyakovamargarita.github.io/puzzle/privacy.html
+
+Same URLs are in `src/shared/config/legal.ts` for in-app Settings.
