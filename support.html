@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Puzzle Isle — Support</title>
+  <meta name="description" content="Support and contact for Puzzle Isle — match-3 puzzles and dream island building." />
+  <style>
+    :root {
+      --ink: #143B4A;
+      --muted: #5D7B86;
+      --cream: #FFF8E8;
+      --aqua: #27C9C1;
+      --aqua-dark: #159EAA;
+      --sky: #BCECF4;
+      --ocean: #168FB3;
+      --coral: #FF7B70;
+      --sand: #F5D99A;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse 90% 60% at 10% -10%, #FFE08A 0%, transparent 55%),
+        radial-gradient(ellipse 80% 50% at 100% 0%, var(--sky) 0%, transparent 50%),
+        linear-gradient(180deg, #DDF7F1 0%, var(--cream) 45%, #E8F7FB 100%);
+      min-height: 100vh;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 40px 22px 64px;
+    }
+    .brand {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--aqua-dark);
+      margin: 0 0 8px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 6vw, 2.6rem);
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+    .tagline {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      border-radius: 22px;
+      padding: 22px 22px 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 10px 28px rgba(16, 74, 90, 0.1);
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+      letter-spacing: 0.02em;
+    }
+    p, li { color: var(--ink); }
+    p { margin: 0 0 10px; }
+    p:last-child, ul:last-child { margin-bottom: 0; }
+    ul { margin: 0; padding-left: 1.15rem; }
+    li { margin-bottom: 6px; }
+    a {
+      color: var(--ocean);
+      font-weight: 700;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+    }
+    .email {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 12px 16px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--aqua), var(--aqua-dark));
+      color: white !important;
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 8px 18px rgba(21, 158, 170, 0.28);
+    }
+    .email:hover { filter: brightness(1.05); }
+    nav { margin-top: 8px; font-size: 0.95rem; }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand">Puzzle Isle</p>
+    <h1>Support</h1>
+    <p class="tagline">Build your dream island — match-3 puzzles, restore locations, decorate your isle.</p>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Need help with Puzzle Isle? Email us — we read every message.</p>
+      <a class="email" href="mailto:margaritka251289@gmail.com?subject=Puzzle%20Isle%20Support">margaritka251289@gmail.com</a>
+      <p style="margin-top:14px;color:var(--muted);font-size:0.92rem;">Please include your device model and iOS version if you are reporting a bug.</p>
+    </section>
+
+    <section class="card">
+      <h2>What this app is</h2>
+      <ul>
+        <li>Match-3 puzzle levels that earn restoration stars</li>
+        <li>An island world you restore and decorate</li>
+        <li>A companion robot that walks your locations</li>
+        <li>Progress saved on your device (no account required)</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Common questions</h2>
+      <p><strong>How do I continue after failing a level?</strong><br />You can watch a short rewarded ad for extra moves, or continue free if you purchased Remove Ads.</p>
+      <p><strong>How do I remove ads?</strong><br />Open Settings and choose Remove Ads. You can Restore Purchases on a new device from the same Apple ID.</p>
+      <p><strong>I lost my progress.</strong><br />Progress is stored locally on the device. Reinstalling or switching devices does not sync progress. If something unexpected happened, email us with details.</p>
+      <p><strong>Languages</strong><br />Puzzle Isle includes English, Russian, Ukrainian, Spanish, Portuguese, German, French, Turkish, Indonesian, Italian, Polish, Czech, Japanese, Korean, and Vietnamese.</p>
+    </section>
+
+    <section class="card">
+      <h2>Legal</h2>
+      <nav>
+        <a href="./privacy.html">Privacy Policy</a>
+      </nav>
+    </section>
+
+    <footer>
+      Developer: Margarita Polyakova<br />
+      App: Puzzle Isle · version 1.0.0<br />
+      Last updated: 14 September 2026
+    </footer>
+  </main>
+</body>
+</html>
