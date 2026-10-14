@@ -1,23 +1,28 @@
-# Legal pages (App Store Support / Privacy URLs)
+# Что заливать на GitHub Pages
 
-Public repo: https://github.com/PolyakovaMargarita/puzzleIsla
+Всё лежит прямо в этой папке `docs/`.
 
-Files at repository root:
+## Репозиторий `puzzleIsla`
+
+Скопируй в **корень** репо:
 
 - `index.html`
 - `privacy.html`
 - `support.html`
-- `README.md`
 
-## GitHub Pages
+Pages: ветка `main`, папка `/`.
 
-1. Repo → **Settings** → **Pages**
-2. Source: Deploy from branch `main`
-3. Folder: **`/` (root)** — not `/docs`
+Ссылки:
+- https://polyakovamargarita.github.io/puzzleIsla/privacy.html
+- https://polyakovamargarita.github.io/puzzleIsla/support.html
 
-## URLs
+## Репозиторий `polyakovamargarita.github.io` (только AdMob)
 
-- Support: https://polyakovamargarita.github.io/puzzleIsla/support.html
-- Privacy: https://polyakovamargarita.github.io/puzzleIsla/privacy.html
+Скопируй в **корень** репо:
 
-Same URLs are in the Puzzle Isle app: `src/shared/config/legal.ts`.
+- `app-ads.txt`
+
+В AdMob сайт: `https://polyakovamargarita.github.io`  
+Проверка: https://polyakovamargarita.github.io/app-ads.txt
+
+`app-ads.txt` в `puzzleIsla` не клади — Google читает его только с домена.
